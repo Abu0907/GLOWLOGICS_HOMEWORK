@@ -14,7 +14,46 @@ header{
     nav a{
         text-decoration: none;
         color: black;
-        font-size: large;
+        font-size: 1.2em;
         padding: 10px;
     }
+}
+.container{
+    background-image: url('/images/portfoliobg.jpg');
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    .sidecontent{
+        max-width: 400vw;
+        margin-left: 7%;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 1em;
+        background-color: #94979a;
+        color: white;
+        border: 1px solid #94979a;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+}
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    height: 8vh;
 }
